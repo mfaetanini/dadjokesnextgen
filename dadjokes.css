@@ -1,0 +1,48 @@
+html{
+    font-family: 'Source Sans Pro', serif;
+    background: #6a5c80;
+    color: #82d8d8;
+}
+.container {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+  }
+
+.wrapper{
+    text-align: center;
+}
+
+.joke{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+.small-img{
+    max-width: 400px;
+    background: black;
+    opacity: .9;
+    border-radius: 20px;
+
+
+}
+.caption{
+    margin-top: 5px;
+    font-size: .6em;
+    color: white;
+
+}
+.logo{
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+button{
+    background: #82d8d8;
+    padding: 15px 25px 15px 25px;
+    border-radius: 20px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 900;    
+}
